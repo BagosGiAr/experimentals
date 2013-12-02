@@ -1,0 +1,81 @@
+{
+	"defaultSet": "app1.dev",
+	"app1.debug" : {
+		"defaultLang": "en",
+		"port"       : 3001,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	},
+	"app1.dev"       : {
+		"defaultLang": "en",
+		"port"       : 3002,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	},
+	"app1.enterprise": {
+		"defaultLang": "en",
+		"port"       : 3003,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	},
+	"app2.debug" : {
+		"defaultLang": "en",
+		"port"       : 3004,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	},
+	"app2.dev"       : {
+		"defaultLang": "en",
+		"port"       : 3005,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	},
+	"app2.enterprise": {
+		"defaultLang": "en",
+		"port"       : 3006,
+		"baseurl"    : "http://rooturl",
+		"mysql"      : {
+			"host"              : "localhost",
+			"user"              : "root",
+			"password"          : "root",
+			"database"          : "db",
+			"multipleStatements": true
+		},
+		"perPage"    : 10
+	}
+}

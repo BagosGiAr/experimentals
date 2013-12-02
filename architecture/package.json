@@ -1,0 +1,24 @@
+{
+  "name": "experimentals",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Various experiments of mine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo Hey",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BagosGiAr/experimentals.git"
+  },
+  "author": "Evalon",
+  "dependencies": {
+    "express": "~3.3.5",
+    "optimist": "~0.6.0",
+    "q": "~0.9.6",
+    "mysql": "2.x",
+    "setimmediate": "1.x",
+    "request": "~2.27.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"app1.debug" : {
+		"routes": [
+			"./routes/user.js"
+		],
+		"hooks": {}
+	},
+	"app1.dev"       : {
+		"routes": [
+			"./routes/user.js"
+		],
+		"hooks": {}
+	},
+	"app1.enterprise": {
+		"routes": [
+			"./routes/user.js"
+		],
+		"hooks": {}
+	},
+	"app2.debug" : {
+		"routes": [
+			"./routes/beer.js"
+		],
+		"hooks": {}
+	},
+	"app2.dev"       : {
+		"routes": [
+			"./routes/beer.js"
+		],
+		"hooks": {}
+	},
+	"app2.enterprise": {
+		"routes": [
+			"./routes/beer.js"
+		],
+		"hooks": {}
+	}
+}
