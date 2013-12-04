@@ -138,6 +138,6 @@ module.export = (function(redis, memcached) {
 					deferred.resolve(tmp);
 				});
 			});
-		},
+		}
 	};
 });
